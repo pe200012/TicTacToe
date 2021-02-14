@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5f813ed9dce2d0d8ff2d095672c31450754fd96143b77f399ea9df21aa3bce26
+-- hash: 3d96e792575ccb9633a32a9208cecbbe3cef655f008eead6af447c1f69be1555
 
 name:           TicTacToe
 version:        0.1.0.0
@@ -37,6 +37,8 @@ library
     , base >=4.7 && <5
     , microlens
     , mtl
+    , text
+    , text-format
   default-language: Haskell2010
 
 executable TicTacToe-exe
@@ -52,6 +54,8 @@ executable TicTacToe-exe
     , base >=4.7 && <5
     , microlens
     , mtl
+    , text
+    , text-format
   default-language: Haskell2010
 
 test-suite TicTacToe-test
@@ -68,4 +72,6 @@ test-suite TicTacToe-test
     , base >=4.7 && <5
     , microlens
     , mtl
+    , text
+    , text-format
   default-language: Haskell2010
