@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "TicTacToe:lib"
+
+    - path: "./app/Main.hs"
+      component: "TicTacToe:exe:TicTacToe-exe"
+
+    - path: "./app/Paths_TicTacToe.hs"
+      component: "TicTacToe:exe:TicTacToe-exe"
+
+    - path: "./test"
+      component: "TicTacToe:test:TicTacToe-test"
